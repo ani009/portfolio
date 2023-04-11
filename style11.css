@@ -1,1 +1,161 @@
+*{
+  color: whitesmoke;
+}
 
+body{
+
+
+
+  background-color: #303655;
+  background-size: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+}
+title{
+  color: skyblue;
+}
+
+.container{
+    height: 150vh;
+    width:1150px;
+    margin: 0px auto;
+    display:flex;
+    flex-direction:column;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #303655;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+}
+.abt{
+  
+  
+  height:20%
+  
+}
+.sh{
+  border:2px solid white;
+    height:30%
+}
+.sh h2{
+  color: skyblue;
+  text-decoration: underline;
+}
+.learn{
+  border:2px solid white;
+    height:150%;
+    display:flex;
+    flex-direction:column;
+    font-family: 'Open Sans', sans-serif;
+}
+.web{
+    width:800px;
+    margin:0px auto;
+    height:20%;
+    border:2px solid white;
+    cursor:pointer;
+}
+.mac{
+  
+}
+.dsa{
+    width:800px;
+    margin:0px auto;
+    height:20%;
+    border:2px solid white;
+}.column {
+    display:flex;
+    width:800px;
+    margin:0px auto;
+    height:60%;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .containerTab {
+    padding: 10px;
+    color: white;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: flex;
+    clear: both;
+    flex-direction:column;
+    height:90%;
+    border:2px solid white;
+  }
+  
+  /* Closable button inside the image */
+  .closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  #dropdown-menu {
+    display: none;
+    font-family: 'Open Sans', sans-serif;
+  }
+  #webd {
+    display: none;
+  }
+  #dsa {
+    display: none;
+  }
+  
+  .drop{
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    background-color:skyblue;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    width: 40%;
+    color: black;
+  }
+  #dropdown-menu .p{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .cert{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+   color: #FF6A3D;
+   background-color: aliceblue;
+   padding: 0.5em 1.5em;
+   border-radius: 100px;
+   text-decoration:none;
+   width: 10%;
+   float: right;
+  }
+  .cert:hover{
+    box-shadow: 0.3rem 0.3rem;
+  }
+  .pic{
+    display: flex;
+    flex-direction: column;
+    border:2px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .dabba{
+    border:2px solid white;
+    display: flex;
+    justify-content: space-between;
+  }
+  .pic img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+  }
+  
+  
