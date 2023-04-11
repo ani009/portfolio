@@ -1,12 +1,12 @@
 *{
-  color: whitesmoke;
+  color: white;
 }
 
 body{
 
 
 
-  background-color: #303655;
+  background-color: #1c1c1c;
   background-size: 100%;
     background-repeat: no-repeat;
     background-size:cover;
@@ -24,7 +24,7 @@ title{
     display:flex;
     flex-direction:column;
     font-family: 'Open Sans', sans-serif;
-    background-color: #303655;
+    background-color: #1c1c1c;
     background-size: 100%;
     background-repeat: no-repeat;
     background-size:cover;
@@ -38,36 +38,31 @@ title{
   
 }
 .sh{
-  border:2px solid white;
+  border-bottom:2px solid white;
     height:30%
 }
 .sh h2{
-  color: skyblue;
+  
   text-decoration: underline;
 }
 .learn{
-  border:2px solid white;
+  border-bottom:2px solid white;
     height:150%;
     display:flex;
     flex-direction:column;
     font-family: 'Open Sans', sans-serif;
 }
+.learn h2{
+  text-decoration: underline;
+}
 .web{
     width:800px;
     margin:0px auto;
     height:20%;
-    border:2px solid white;
+    border-bottom:2px solid white;
     cursor:pointer;
 }
-.mac{
-  
-}
-.dsa{
-    width:800px;
-    margin:0px auto;
-    height:20%;
-    border:2px solid white;
-}.column {
+.column {
     display:flex;
     width:800px;
     margin:0px auto;
@@ -90,7 +85,7 @@ title{
     clear: both;
     flex-direction:column;
     height:90%;
-    border:2px solid white;
+    border-bottom:2px solid white;
   }
   
   /* Closable button inside the image */
@@ -114,24 +109,25 @@ title{
   .drop{
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
-    background-color:skyblue;
+    background-color:white;
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 8px;
     width: 40%;
-    color: black;
   }
+
   #dropdown-menu .p{
     font-family: 'Open Sans', sans-serif;
   }
   .cert{
     display: inline-block;
     font-family: 'Roboto', sans-serif;
-   color: #FF6A3D;
-   background-color: aliceblue;
+   color: white;
+   background-color: #DB4027;
    padding: 0.5em 1.5em;
    border-radius: 100px;
-   text-decoration:none;
+   text-decoration:bold;
+   text-align: center;
    width: 10%;
    float: right;
   }
@@ -147,7 +143,7 @@ title{
     border-radius: 50%;
   }
   .dabba{
-    border:2px solid white;
+    border-bottom:2px solid white;
     display: flex;
     justify-content: space-between;
   }
@@ -157,5 +153,6 @@ title{
     border-radius: 50%;
 
   }
+  
   
   
