@@ -34,6 +34,17 @@
     justify-content:space-around;
     background-color: #1c1c1c;
 }
+
+form button{
+    padding: 15px;
+    background-color: #DB4027;
+    font-size: 12px;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    border-radius: 30%;
+}
+
 .send{
     /*border:2px solid black;*/
     width:55%;
@@ -71,6 +82,11 @@
     width:90%;
     border:none;
     border-bottom:2px solid black;
-    
     outline:none;
+}
+
+form textarea{
+    width:90%;
+    border:none;
+    border-bottom:2px solid black;
 }
