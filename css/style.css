@@ -14,7 +14,10 @@ body{
     z-index: 9999;
     background-color: rgba(0, 0, 0, 0.8);
   }
-  
+.container-wrapper {
+    overflow: hidden;
+  }
+ 
 .container{
     
     font-family: 'Roboto', sans-serif;
