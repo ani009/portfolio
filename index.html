@@ -2,122 +2,229 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style9.css">
-    <script src="https://kit.fontawesome.com/7743e80b72.js" crossorigin="anonymous"></script>
-    <title>MY portfolio</title>
-    
+    <title>bootstrap</title>
+    <!--first link bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!---->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- then css file -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container1">
-    <header class="header">
-    <div class="container">
-       <div class="navbar">
-           <h2 style="color:#DB4027">PORT</h2><h2>FOLIO</h2>
-           <ul class="nav-items">
-            <a  href="#"><li>HOME</li></a>
-            <a  href="about.html"><li>ABOUT ME</li></a>
-            <a  href="contact.html"><li>CONTACT</li></a>
-            <a  href="#"><li>MY PROJECTS</li></a>
-           </ul>
-       </div>
-       <div class="header-content">
-        <div class="info">
-            <div class="hello"><span style="color:#DB4027">Hi</span> My Name Is</div>
-           <div class="ani">Aniket Pal</div>
-           <div class="dev">I am a <span style="color:#DB4027">Developer</span></div>
-           <a class="btn" href="./FAANGPath_Simple_Template.pdf">Download Resume</a>
-       </div> 
-       <div class="pic">
-           <img src="Polish_20230705_184538141.jpg" alt="enthusiast">
-       </div>
-    
-</div>
-</div>
-</header>
-    <section>
-        <div class="myskill">
-            <div class="head">
-                <div class="my">MY Skills</div>
-                <div class="what" style="color:#DB4027">--what i know--</div>
-            </div>
-            <div class="progress">
-                <div class="sinfo">
-                    <h2 style="color:#DB4027"> How Do I Learn</h2>
-                    <p>Web development is the process of creating websites and web applications. Here are some steps to help you learn web development:-</p>
-                    <p>I Learn the basics of HTML, CSS, and JavaScript: HTML is the markup language used to structure content on a webpage, CSS is used to style the content, and JavaScript is used to add interactivity and functionality to the page.</p>
-                    <p>I Choose a web development framework like React, Angular, and Vue.js.then i Learn server-side programming languages: If you want to build dynamic websites, you'll need to learn server-side programming languages like PHP, Python, or Ruby.</p>
-                </div>
-                <div class="prgrsbar">
-                    <div class="brs">
-                    <div class="binfo">
-                        <span>HTML</span>
-                        <span>70%</span>
-                    </div>
-                    <div class="line html"></div>
-                    <div>
-                    <div class="brs">
-                    <div class="binfo">
-                        <span>CSS</span>
-                        <span>50%</span>
-                    </div>
-                    <div class="line css"></div>
-                    <div>
-                    <div class="br">
-                    <div class="binfo">
-                        <span>JavaScript</span>
-                        <span>40%</span>
-                    </div>
-                    <div class="line js"></div>
-                    <div>
-                    <div class="brs">
-                    <div class="binfo">
-                        <span>MYSQL</span>
-                        <span>10%</span>
-                    </div>
-                    <div class="line sql"></div>
-                    <div>
-                    <div class="brs">
-                    <div class="binfo">
-                        <span>PHP</span>
-                        <span>0%</span>
-                    </div>
-                    <div class="line php"></div>
-                    <div>
-                </div>
-            </div>
+    <!---  header area-->
+    <div id="header" class="navbar-fixed-top" style="margin-bottom: 50px; ">
+      <div class="container" style="border-bottom: 2px solid white;">
+        <div class="row">
+          <div class="col-md-4">
+            <h1 style="color: white;"><span style="color:#DB4027">Port</span>Folio</h1>
+          </div>
+          <div class="col-md-8">
+            <ul id="menu" class="float-md-end">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">contact</a></li>
+              <li><a href="#banner-2">Skills</a></li>
+              <li><a href="#banner-3">Achievements</a></li>
+              <li><a href="./project.html">project</a></li>
+            </ul>
+          </div>
         </div>
-       
-        
-    </section>
-    <div class="achieve">
-        <div class="head1">
-            <div class="my1">MY ACHIEVEMENTS</div>
-        </div>
-        <div class="all">
-            <div class="pic1">
-                <img src="round2certificate_page-0001.jpg">
-            </div>
-            <div class="round">
-                <div class="AIR"><span style="color:#DB4027">Secured</span>AIR 219th</div>
-           <div class="code">In Codekaze's 2023</div>
-           <div class="ninja">Which is organised by <span style="color:#DB4027">Coding Ninjas</span></div>
-           <br>
-           <a class="btn" href="./aniket's resume (2).pdf">Download Certificate</a>
-            </div>
-        </div> 
+      </div>
     </div>
-    <footer>
-        <footer class="footer">
-        <div class="social-media-links">
-            <i class="fab fa-facebook fa-2x"></i>
-            <i class="fab fa-instagram fa-2x"></i>
-            <i class="fab fa-google fa-2x"></i>
+
+    <div id="banner-1" style="height: 70vh; margin-bottom: 50px;" class="container">
+        <div class="row h-100">
+          <div class="col-md-6 h-100 d-flex justify-content-center align-items-center">
+            <div class="info" style="max-width: 90%; padding: 20px;">
+              <div class="hello"><span style="color:#DB4027">Hi</span> My Name Is</div>
+              <div class="ani">Aniket Pal</div>
+              <div class="dev">I am a <span style="color:#DB4027">Developer</span></div>
+              <a class="btn" href="./image/aniresume.pdf">Download Resume</a>
+            </div>
+          </div>
+          <div class="col-md-6 h-100 d-none d-md-flex d-flex justify-content-center align-items-center">
+            <img src="./image/Polish_20230705_184538141.jpg" alt="enthusiast" class="img-fluid" style="max-height: 100%; max-width: 100%;">
+          </div>
         </div>
-        <p>WORLD TRAVEL &copy; 2020, ALL RIGHT RESERVED</p>
-    </footer>
-    </footer>
+    </div>
+    <div id="about" style="height: 35vh; margin-bottom: 50px;">
+      <div class="container">
+      <div class="row h-100">
+        <div class="col-12" style="border-bottom: 2px solid white;">
+          <div class="hello"><span style="color:#DB4027">About</span> Me</div>
+        </div>
+        <div class="col-12" style="color:white;">
+        <p>Hi, My name is <b style="color:#DB4027">Aniket Pal</b> and my portfolio is a representation of all that I've learned and accomplished as a Computer science and engineering student.</p>
+        <p>Currently, I pursuing Bachelor of technology from <b>G.L. Bajaj institute of technology and management</b>.I am a Computer Scienece with artificial intelligence student and my degree is completed in 2024.</p>
+        <p>I am a keen learner and always try to learn something new. My Hobbies is to playing Cricket,Spending time with family and I love to travel different places.</p>
+      </div>
+    </div>
+    </div>
+    </div>
+    <div id="banner-2" style="height: 60vh; margin-bottom: 50px;"class="container">
+        <div class="row h-25">
+          <div class="col-md-12 h-100 d-flex justify-content-center align-items-center" style="border-bottom: 2px solid white;">
+            <div class="head">
+              <div class="my"><span style="color: #DB4027;">MY</span> Skills</div>
+              <div class="what" style="color:#DB4027">--what i know--</div>
+            </div>
+          </div>
+          </div>
+        <div class="row h-75">
+          <div class="col-md-6 h-100">
+            <div class="prgrs1">
+              <Span style="color: white;">HTML</Span>
+            <div class="progress mb-3" style="width: 100%; background-color:white;">
+              <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #DB4027;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90</div>
+            </div>
+            <Span style="color: white;">CSS</Span>
+            <div class="progress mb-3" style="width: 100%; background-color:white;">
+              <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #DB4027;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80</div>
+            </div>
+            <Span style="color: white;">Java script</Span>
+            <div class="progress mb-3" style="width: 100%; background-color:white;">
+             
+              <div class="progress-bar" role="progressbar" style="width: 50%; background-color: #DB4027;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50</div>
+            </div>
+            <Span style="color: white;">Bootstrap</Span>
+            <div class="progress mb-3" style="width: 100%; background-color: white;">
+              <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #DB4027;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60</div>
+            </div>
+            <Span style="color: white;">React JS</Span>
+            <div class="progress mb-3" style="width: 100%; background-color: white;">
+              <div class="progress-bar" role="progressbar" style="width: 20%; background-color: #DB4027;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20</div>
+            </div>
+          </div> 
+        </div>
+
+          <div class="col-md-6 h-100 d-none d-md-block ">
+            <div class="prgrs2">
+            <Span style="color: white;">Data Structures</Span>
+            <div class="progress mb-3" style="width: 100%; background-color:white;">
+              <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #DB4027;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80</div>
+            </div>
+            <Span style="color: white;">My SQL</Span>
+            <div class="progress mb-3" style="width: 100%; background-color: white;">
+              <div class="progress-bar" role="progressbar" style="width: 40%; background-color: #DB4027;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40</div>
+            </div>
+            <Span style="color: white;">python</Span>
+            <div class="progress mb-3" style="width: 100%; background-color: white;">
+             
+              <div class="progress-bar" role="progressbar" style="width: 50%; background-color: #DB4027;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50</div>
+            </div>
+            <Span style="color: white;">Java</Span>
+            <div class="progress mb-3" style="width: 100%; background-color: white;">
+              <div class="progress-bar" role="progressbar" style="width: 50%; background-color: #DB4027;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50</div>
+            </div>
+            <Span style="color: white;">Node JS</Span>
+            <div class="progress mb-3" style="width: 100%; background-color: white;">
+              <div class="progress-bar" role="progressbar" style="width: 20%; background-color: #DB4027;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20</div>
+            </div>
+          </div>      
+        </div>
+      </div>
+   </div>
+
+   <div id="banner-3" class="container section" style="margin-bottom: 50px;">
+      <div class="row" style="padding-bottom: 10px;">
+        <div class="col-md-12" style="border-bottom: 2px solid white;">
+          <h2 class="section-head" style="color:white;"><span style="color:#DB4027;">My</span> Achievements</h2>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-md-4" style="color:white;">
+          <div class="ach1">
+            <i class="fa-solid fa-laptop-code"></i>
+            <p style="font-family: 'Roboto', sans-serif;">Solved more than 400+ problems with 1600+ contest rating</p>
+            <a class="btn0" href="https://leetcode.com/ANIK0503">Leetcode</a>
+          </div>
+        </div>
+        <div class="col-md-4"style="color:white;">
+          <div class="ach1">
+            <i class="fa-solid fa-laptop-code"></i>
+            <p style="font-family: 'Roboto', sans-serif;">Participate in codechef competition and acquire 1600+ contest rating</p>
+            <a class="btn1" style="color: black;" href="https://www.codechef.com/users/aniketpal0503">Codechef</a>
+          </div>
+        </div>
+        <div class="col-md-4"style="color:white;">
+          <div class="ach1">
+            <i class="fa-solid fa-laptop-code"></i>
+            <p style="font-family: 'Roboto', sans-serif;">Solved more than 400+ problems on geeksforgeeks</p>
+            <a class="btn2" href="https://auth.geeksforgeeks.org/user/aniketpppaaalll154389">Gfg</a>
+          </div>
+        </div>
+      </div>
+  </div>
+   <div id="banner-4" class="container section" style=" margin-bottom: 50px;">
+      <div class="row" style="padding-bottom: 10px;">
+        <div class="col-md-12" style="color:white; border-bottom: 2px solid white;">
+          <h2 class="section-head"><span style="color: #DB4027;">My</span> Certificate</h2>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-6"style="color:white;">
+          <div class="ach1">
+            <i class="fa-regular fa-file-pdf"></i>
+            <p style="font-family: 'Roboto', sans-serif;">Completed C++ course from coding ninjas.</p>
+            <a class="btn" href="./image/certificate2096325902905993c820aaf6054ca19a996d324.pdf">Certificate</a>
+          </div>
+        </div>
+        <div class="col-6" style="color:white;">
+          <div class="ach1">
+            <i class="fa-regular fa-file-pdf"></i>
+            <p style="font-family: 'Roboto', sans-serif;">Participate in Codekaze 2023 and acquire 219th All India Rank</p>
+            <a class="btn" href="./image/round2certificate (1).pdf">Certificate</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" style="border-bottom: 2px solid white;">
+          <div class="hello"><span style="color:#DB4027">Contact</span> Me</div>
+        </div>
+      </div>
+      <div class="row flex-column align-items-center">
+        <div class="col-4 text-center"style="padding-bottom: 5px">
+          <i class="fas fa-map-marker-alt"></i>
+          <span style="color:white;">Noida, India</span>
+      </div>
+        <div class="col-4 text-center" style="padding-bottom: 5px">
+          <i class="fas fa-mobile-alt"></i>
+          <span><a href="tel:+918766337653" style="color:white; text-decoration: none;"> +91 8766337653</a></span>
+      </div>
+      <div class="col-4 text-center"style="padding-bottom: 5px">
+          <i class="far fa-envelope"></i>
+          <span><a href="mailto:palanikekt715@gmail.com" style="color:white; text-decoration: none;"> palaniket715@gmail.com </a></span>
+      </div>
+      </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-2 text-center" >
+                <a href="https://www.linkedin.com/in/aniket-pal-66921321b/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+            <div class="col-2 text-center">
+                <a href="https://twitter.com/palaniket715?t=8UxYuMP62Iaegbiqpx5zIQ&s=08" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <div class="col-2 text-center">
+                <a href="https://instagram.com/nenuaniket?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
+    
+    <!--link jquery file also-->
+    <script src="./js/jquery.3.4.1.js"></script>
+    <!--link bootstrapjs file -->
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
