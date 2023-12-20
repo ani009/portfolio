@@ -39,8 +39,11 @@
             <div class="info" style="max-width: 90%; padding: 20px;">
               <div class="hello"><span style="color:#DB4027">Hi</span> My Name Is</div>
               <div class="ani">Aniket Pal</div>
-              <div class="dev">I am a <span style="color:#DB4027">Developer</span></div>
-              <a class="btn" href="./image/aniresume.pdf">Download Resume</a>
+              <div class="dev">
+                <span class="text first-text">I am a </span>
+                <span class=" text sec-text" style="color: #DB4027;">Web Developer</span>
+              </div>
+              <a class="btn"  href="./image/CV_Developer (1) (1).pdf">Download Resume</a>
             </div>
           </div>
           <div class="col-md-6 h-100 d-none d-md-flex d-flex justify-content-center align-items-center">
@@ -223,6 +226,26 @@
         </div>
     </div>
 </div>
+<script>
+  
+  const text = document.querySelector(".sec-text");
+
+const Load = () => {
+    setTimeout(() => {
+        text.textContent = "Web Developer";
+    }, 0);
+    setTimeout(() => {
+        text.textContent = "Student";
+    }, 4000);
+    setTimeout(() => {
+        text.textContent = "Learner";
+    }, 8000); //1s = 1000 milliseconds
+}
+
+Load();
+setInterval(Load, 12000);
+
+</script>
     
     <!--link jquery file also-->
     <script src="./js/jquery.3.4.1.js"></script>
