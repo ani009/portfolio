@@ -14,10 +14,9 @@ body{
     z-index: 9999;
     background-color: rgba(0, 0, 0, 0.8);
   }
-.container-wrapper {
+  .container-wrapper {
     overflow: hidden;
   }
- 
 .container{
     
     font-family: 'Roboto', sans-serif;
@@ -70,6 +69,11 @@ body{
    border-radius: 100px;
    text-decoration:none;
    font-style:bold;
+}
+.btn:hover{
+    background-color: white;
+    color: #DB4027;
+    box-shadow: 5px 5px 2px #DB4027;
 }
 .my{
     font-family: 'Roboto', sans-serif;
@@ -151,4 +155,31 @@ body{
     margin-bottom: 10px;
     color: #DB4027;
  }
-
+ .dev .text{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.dev .first_text{
+    color: #FFF;
+}
+.sec-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1c1c1c;
+    border-left: 2px solid #DB4027;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
